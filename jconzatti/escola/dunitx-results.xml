@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="C:\Cursos de Programação\Alura\DDD\jconzatti\escola\escola.ddd.dunit.exe" total="26" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2023-03-21" time="0.008">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="escola.ddd.dunit.exe" executed="true" result="Success" success="True" time="0.008" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="Escola" executed="true" result="Success" success="True" time="0.014" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TTelefoneTeste" executed="True" result="Success" success="True" time="0.007" >
+                <results>
+                  <test-case name="TestarTelefoneComDDDComFormatoInvalido.TestarTelefoneSemDDD" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComDDDComFormatoInvalido.TestarTelefoneComDDDComUmDigito" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComDDDComFormatoInvalido.TestarTelefoneComDDDComTresDigitos" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComDDDComFormatoInvalido.TestarTelefoneComDDDComLetras" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComNumeroComFormatoInvalido.TestarTelefoneSemNumero" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComNumeroComFormatoInvalido.TestarTelefoneComNumeroComTresDigitos" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComNumeroComFormatoInvalido.TestarTelefoneComNumeroComDezDigitos" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComNumeroComFormatoInvalido.TestarTelefoneComNumeroComLetras" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComFormatoValido.TestarTelefoneComDDD47ENumero984527792" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarTelefoneComFormatoValido.TestarTelefoneComDDD47ENumero30355707" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="Fixture" name="TCPFTeste" executed="True" result="Success" success="True" time="0.004" >
+                <results>
+                  <test-case name="TestarCPFComFormatoInvalido.TestarCPFVazio" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarCPFComFormatoInvalido.TestarCPFSemPonto" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarCPFComFormatoInvalido.TestarCPFSemTraco" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarCPFComFormatoInvalido.TestarCPFSemPontoESemTraco" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="TestarCPFComFormatoInvalido.TestarCNPJNoLugarDoCPF" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarCPFComFormatoInvalido.TestarCPFComTresDigitosVerificadores" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarCPFComDigitoVerificadorInvalido" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarCPFComDigitoVerificadorValido" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="Fixture" name="TEmailTeste" executed="True" result="Success" success="True" time="0.002" >
+                <results>
+                  <test-case name="TestarEmailComFormatoInvalido.TestarEmailVazio" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarEmailComFormatoInvalido.TestarEmailSemArroba" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarEmailComFormatoInvalido.TestarEmailSemDominio" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarEmailComFormatoInvalido.TestarEmailComDominioIncompleto" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarEmailComFormatoInvalido.TestarEmailSemUsuario" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestarEmailComFormatoInvalido.TestarEmailComDoisArrobas" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="TestarEmailComFormatoValido" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="Fixture" name="TAlunoMatriculadorTeste" executed="True" result="Success" success="True" time="0.000" >
+                <results>
+                  <test-case name="TestarSeOAlunoMatriculadoFoiGravadoNoRepositorio" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
