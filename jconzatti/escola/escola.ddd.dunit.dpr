@@ -26,7 +26,9 @@ uses
   Escola.Aluno.Repositorio in 'fonte\dominio\aluno\Escola.Aluno.Repositorio.pas',
   Escola.Aluno in 'fonte\dominio\aluno\Escola.Aluno.pas',
   Escola.Aluno.Matriculador.Teste in 'teste\aplicacao\aluno\Escola.Aluno.Matriculador.Teste.pas',
-  Escola.Aluno.Repositorio.Memoria in 'fonte\infra\aluno\Escola.Aluno.Repositorio.Memoria.pas';
+  Escola.Aluno.Repositorio.Memoria in 'fonte\infra\aluno\Escola.Aluno.Repositorio.Memoria.pas',
+  Escola.Aluno.Teste in 'teste\dominio\aluno\Escola.Aluno.Teste.pas',
+  Escola.Aluno.Excecao in 'fonte\dominio\aluno\Escola.Aluno.Excecao.pas';
 
 var
   runner : ITestRunner;

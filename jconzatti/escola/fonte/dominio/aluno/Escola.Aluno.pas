@@ -7,7 +7,8 @@ uses
    Escola.Email,
    Escola.CPF,
    Escola.Telefone,
-   Escola.Aluno.Dado;
+   Escola.Aluno.Dado,
+   Escola.Aluno.Excecao;
 
 type
    TAluno = class
@@ -56,6 +57,8 @@ end;
 
 procedure TAluno.AdicionarTelefone(pDDD, pNumero: String);
 begin
+   if FListaTelefone.Count >= 2 then
+      raise EAlunoQuantidadeTelefoneExcedido.Create('Aluno não pode ter mais que 2 telefones!');
    FListaTelefone.Add(TTelefone.Create(pDDD, pNumero));
 end;
 

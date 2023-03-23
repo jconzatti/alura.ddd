@@ -25,7 +25,8 @@ uses
   Escola.Indicacao.Enviador.Email in 'fonte\aplicacao\indicacao\Escola.Indicacao.Enviador.Email.pas',
   Escola.Indicacao.Enviador.Email.SMTP.Indy in 'fonte\infra\indicacao\Escola.Indicacao.Enviador.Email.SMTP.Indy.pas',
   Escola.Aluno.Matriculador in 'fonte\aplicacao\aluno\Escola.Aluno.Matriculador.pas',
-  Escola.Aluno.Matriculador.Apresentacao.LinhaComando in 'fonte\infra\aluno\Escola.Aluno.Matriculador.Apresentacao.LinhaComando.pas';
+  Escola.Aluno.Matriculador.Apresentacao.LinhaComando in 'fonte\infra\aluno\Escola.Aluno.Matriculador.Apresentacao.LinhaComando.pas',
+  Escola.Aluno.Excecao in 'fonte\dominio\aluno\Escola.Aluno.Excecao.pas';
 
 var lAlunoRepositorioMemoria : TAlunoRepositorioMemoria;
     lAlunoMatriculadorApresentacaoLinhaComando : TAlunoMatriculadorApresentacaoLinhaComando;
