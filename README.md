@@ -2,7 +2,7 @@
 
 Curso da Alura sobre DDD (Domain Driven Design) implementado em Delphi
 
-| :placard: Vitrine.Dev | Jhoni Conzatti |
+| :placard: Vitrine.Dev | [Jhoni Conzatti](https://cursos.alura.com.br/vitrinedev/jhoni-conzatti) |
 | -------------  | --- |
 | :sparkles: Nome        | **DDD**
 | :label: Tecnologias | delphi, object pascal
