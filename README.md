@@ -11,7 +11,7 @@ Curso da Alura sobre DDD (Domain Driven Design) implementado em Delphi
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://raw.githubusercontent.com/jconzatti/alura.ddd/main/image.png#vitrinedev)
-![](https://raw.githubusercontent.com/jconzatti/alura.ddd/main/image2.png)
+![](https://raw.githubusercontent.com/jconzatti/alura.ddd/main/image2.png#vitrinedev)
 
 ## Detalhes do projeto
 
